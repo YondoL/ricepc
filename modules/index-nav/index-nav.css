@@ -1,0 +1,89 @@
+#main .left-nav .left-index-nav>a{
+    display: block;
+    padding-left: 30px;
+    opacity: .85;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-transition:background-color .3s cubic-bezier(0,0,0.2,1);
+    transition:background-color .3s cubic-bezier(0,0,0.2,1);
+}
+#openPayMenu {
+    display: block;
+    opacity: .85;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-transition: background-color .3s cubic-bezier(0, 0, 0.2, 1);
+    transition: background-color .3s cubic-bezier(0, 0, 0.2, 1);
+}
+#openPayMenu>a{
+    padding-left: 30px;
+    display: block;
+}
+#main .left-nav .left-index-nav a:hover{
+    background-color: #e7e7e7
+}
+#main .left-nav .left-index-nav a i ,#openPayMenu i{
+    vertical-align: middle;
+    margin-right:16px;
+    height: 30px;
+    width: 24px;
+}
+#main .left-nav .left-index-nav>a>p,#openPayMenu p{
+    width: 124px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 48px;
+}
+#main .left-nav .pay-community-list{
+    text-align: center;
+    display: none;
+}
+#main .left-nav .pay-community-list a{
+    font-size:12px;
+    color:#555555;
+    line-height: 42px;
+    cursor: pointer;
+    display: block;
+}
+.left-nav-bt{
+    height: 10px;
+    width: 15px;
+    margin-left: 25px;
+    display: inline-block;
+}
+.icon-hot-red {
+    background-position: -6px -29px;
+    background-size: 800%;
+}
+
+.icon-hot-gray {
+    background-position: -6px -68px;
+    background-size: 800%;
+}
+.icon-new-gray{
+    background-position:-44px -68px;
+    background-size: 800%;
+}
+
+.icon-new-red {
+    background-position:-44px -30px;
+    background-size: 800%;
+}
+.icon-pay-red {
+    background-size: 800%;
+    background-position: -80px -30px;
+}
+
+.icon-pay-gray {
+    background-size: 800%;
+    background-position: -80px -67px;
+}
+.icon-list-red{
+    background-size: 800%;
+    background-position: -112px -29px;
+}
+
+.icon-list-gray {
+    background-size: 800%;
+    background-position: -112px -66px;
+}

@@ -1,0 +1,56 @@
+
+html,body{
+    font-family:"微软雅黑","Microsoft YaHei","微软雅黑","Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
+    color: #555555;
+}
+body{
+    overflow-x: visible;
+    overflow-y: scroll;
+    background-color:#f3f3f3;
+}
+/*清除外边距*/
+body, h1, h2, h3, h4, h5, h6, hr, p, /*结构元素*/
+ul, ol, li, /*列表元素*/
+button, input, textarea, /*表单元素*/
+th, td/*表格元素*/ {
+    margin: 0;
+    padding:0;
+}
+
+i,em{
+    font-style: normal;
+    display: inline-block;
+}
+/*清除内边距*/
+ul, ol {
+    padding: 0;
+}
+
+/*重置列表元素*/
+ul, ol , li {
+    list-style: none;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+a:active,
+a:hover {
+    outline-width: 0;
+}
+img {
+    border: 0;
+}
+/*清下划线*/
+a {
+    text-decoration: none;
+    color: black;
+}
+/*清浮动*/
+.clear:after {
+    content: '';
+    display: block;
+    clear: both;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>大米社区</title>
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" type="image/ico" href="./images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+</head>
+<body>
+    <header id="top-header">
+        <div class="header">
+            <a href="#hot" class="inline-block">
+                <div class="logo-wrapper">
+                    <div class="icon-logo icon-sprite"></div>
+                    <div class="icon-name icon-sprite"></div>
+                </div>
+            </a>
+            <div class="header-right">
+                <a href="#send" class="inline-block">
+                    <div class="user-info-wrapper">
+                        <div class="user-info">
+                            <div class="user-img"></div>
+                            <p class="user-name">WTF小公举</p>
+                        </div>
+                    </div>
+                </a>
+                <div class="user-set-up">
+                    <i class="icon-triangle-bot"></i>
+                    <div class="user-drop-down">
+                        <i class="icon-triangle-top"></i>
+                        <div class="drop-down-wrapper">
+                            <a href="#personal" class="notActive">个人中心</a>
+                            <a href="#info" class="notActive">消息中心</a>
+                            <a href="#account" class="notActive">帐号设置</a>
+                            <a href="#collection" class="notActive">收藏管理</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="logo-or-reg">
+                    <div><span class="register">注册</span>/<span class="logn">登录</span></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="main">
+        <div class="left-nav"></div>
+        <div class="container"></div>
+    </div>
+
+    <!-- 登录注册 -->
+    <div class="wrap-shade">
+        <!-- 注册 -->
+        <div class="reg-log-wrap register-div">
+            <div class="wrap-type">
+                <span>注册</span><span>SIGN IN</span><span class="btn-clo">&times;</span>
+            </div>
+            <div class="wrap-title">
+                <span>欢迎来到大米社区</span>
+            </div>
+            <div class="input-tel inp">
+                <input placeholder="手机号" type="text" class="input-tel-num">
+                <span class="code-send code-reg">发送验证码</span>
+            </div>
+            <input class="input-code inp" placeholder="验证码">
+            <div class="remind-login">
+                <span>登陆后默认同意</span>
+                <a href="javascript:(0)" class="to-userLaw"><span>用户协议</span></a>
+            </div>
+            <div class="btn-to btn-to-tel">
+                <span>登录</span>
+                <img src="./images/Arrow.png" alt="">
+            </div>
+            <div class="login-change">
+                <span class="to-accout">已有账户登录</span>
+            </div>
+        </div> 
+        <!-- 忘记密码 -->
+        <div class="reg-log-wrap forget-div">
+            <div class="wrap-type">
+                <span>忘记密码</span><span>FORGET PASSWORD</span><span class="btn-clo">&times;</span>
+            </div>
+            <div class="wrap-title">
+                <span>欢迎来到大米社区</span>
+            </div>
+            <div class="input-tel inp">
+                <input placeholder="手机号" type="text" class="input-tel-num">
+                <span class="code-send code-forget">发送验证码</span>
+            </div>
+            <input class="input-code inp" placeholder="验证码">
+            <input class="input-password inp" placeholder="密码由6-16位英文、数字组成">
+            <input class="input-password-verify inp" placeholder="确认密码">
+            <div class="btn-to btn-to-verify">
+                <span>确认</span>
+                <img src="./images/Arrow.png" alt="">
+            </div>
+        </div>
+        <!-- 已有账号登录 -->
+        <div class="reg-log-wrap order-div">
+            <div class="wrap-type">
+                <span>已有账号登录</span><span>LOG IN</span><span class="btn-clo">&times;</span>
+            </div>
+            <div class="wrap-title">
+                <span>欢迎来到大米社区</span>
+            </div>
+            <input class="input-tel inp" placeholder="手机号">
+            <input class="input-password inp" placeholder="密码">
+            <div class="btn-to btn-to-user">
+                <span>登录</span>
+                <img src="./images/Arrow.png" alt="">
+            </div>
+            <div class="login-change">
+                <span class="to-forget">忘记密码？</span>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="lib/require.js" data-main="main"></script>
+</body>
+</html>
